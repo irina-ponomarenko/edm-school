@@ -84,6 +84,34 @@ $(document).ready(function() {
         }
     });
 
+    $("#owl-example3").owlCarousel({
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsTablet: [768,2],
+        itemsMobile : [479,1],
+        singleItem : false,
+        navigation : true,
+        pagination: false,
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:2,
+                nav:true
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    });
+
     $("form .tell").mask("+7(999) 999-9999");
 
 });

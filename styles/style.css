@@ -799,6 +799,14 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     bottom: -65%;
     left: 45%;
 }
+.work .owl-prev{
+    width: 23px;
+    height: 47px;
+    background: url("../images/str-left.png") no-repeat center !important;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    margin: 30px 25px !important;
+}
 .video-otzivi .owl-carousel .owl-nav.disabled {
     display: block !important;
 }
@@ -812,6 +820,17 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     position: absolute;
     bottom: -65%;
     right: 45%;
+}
+.work .owl-next{
+    width: 23px;
+    height: 47px;
+    background: url("../images/str-right.png") no-repeat center !important;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    margin: 30px 25px !important;
+}
+.work .owl-nav span{
+    font-size: 0;
 }
 .section9 {
     min-height: 50px;
@@ -1070,3 +1089,14 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .footer .soc img:hover {
     border: 1px solid #f3055d;
 }
+.work .item-carosel-music {
+    background-color: #0f0f43;
+    padding: 20px;
+}
+.work{
+    padding-bottom: 30px;
+}
+.work .owl-dots{
+    display: none;
+}
+
