@@ -1,3 +1,12 @@
+@media (max-width: 1150px) and (min-width:  320px){
+	.f-nav{
+		display: none;
+	}
+	.didjeing{
+		justify-content: center;
+	}
+
+}
 @media (max-width: 992px) and (min-width:  320px){
 	.header-content .row div{
 		justify-content: center;
@@ -30,7 +39,7 @@
 	    font-size: 25px;
 	}
 	.content-section {
-	    padding: 60px 0 45px;
+	    padding: 60px 0 80px;
 	}
 	.news-headlines {
 	    float: none;
@@ -140,10 +149,32 @@
 	    margin-right: 15px;
 	}
 	.section6 .block {
-	    padding-bottom: 40px;
+	    padding-bottom: 50px;
 	}
 	.news-headlines li {
 	    padding: 20px;
+	}
+	.work .fonbg,
+	.text-otzivi .fonbg, .video-otzivi .fonbg {
+		display: none;
+	}
+	.content-section .otzivi{
+		padding: 60px 0 80px;
+	}
+	.video-otzivi .owl-prev{
+		left: 43%;
+	}
+	.video-otzivi .owl-next{
+		right: 43%;
+	}
+	.work,
+	.section9,
+	.enroll-section,
+	.our-course,
+	.pochemu,
+	.for-courses,
+	.napravlenie{
+		padding-bottom: 60px;
 	}
 
 }
@@ -198,6 +229,22 @@
 	.wrapper-header-content-box img {
 	    width: 30%;
 	}
+	.video-otzivi .owl-prev{
+		left: 41%;
+	}
+	.video-otzivi .owl-next{
+		right: 41%;
+	}
+}
+@media (max-width: 720px) and (min-width:  320px){
+
+	.form-send-input:first-child {
+		margin-right: 0;
+	}
+	.form-send-input{
+		margin-bottom: 35px;
+		margin-right: 0;
+	}
 }
 @media (max-width: 607px) and (min-width:  320px){
 	.news-holder p {
@@ -212,7 +259,21 @@
 	.block-course:nth-child(2n+1) {
 	    margin-right: 0;
 	}
+	.video-otzivi .owl-prev{
+		left: 39%;
+	}
+	.video-otzivi .owl-next{
+		right: 39%;
+	}
 
+}
+@media (max-width: 536px) and (min-width:  320px){
+	.video-otzivi .owl-prev{
+		left: 37%;
+	}
+	.video-otzivi .owl-next{
+		right: 37%;
+	}
 }
 @media (max-width: 468px) and (min-width:  320px){
 	.news-headlines li {
@@ -236,6 +297,25 @@
 
 	}
 	.section6 .block .col-md-2 {
-	    bottom: -5%;
+	    bottom: -3%;
+	}
+	.video-otzivi .owl-prev{
+		left: 30%;
+	}
+	.video-otzivi .owl-next{
+		right: 30%;
+	}
+	.otzivi .img {
+		width: 70px;
+		height: 70px;
+	}
+	.video{
+		display: none;
+	}
+	.section1{
+		background-image: url("../images/bg-header.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
 	}
 }
