@@ -248,16 +248,18 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     min-width: 281px;
     max-width: 442px;
     width: 100%;
-    background: linear-gradient(to top, #fe186d, #dc0656);
-    border-bottom: 3px solid #b70547;
+     background: linear-gradient(to top, #12114a, #66215f);
+    border-bottom: 3px solid #22144e;
     box-shadow: 0px 0px 40px rgba(249, 21, 105, 0.7);
     animation: shadow 2s infinite ease-in-out;
     font-family: "Montserrat-SemiBold";
     margin-bottom: 45px;
 }
-.submit-form-btn:hover{
+.submit-form-btn:hover,
+.map .block form .enroll-btn:hover{
     transition: .3s;
-    background: linear-gradient(to top, #dc0656, #fe186d);
+    background: linear-gradient(to top, #66215f, #12114a);
+    border-bottom: 3px solid #22144e;
 }
 .text-header-block{
     font-size: 20px;
@@ -672,6 +674,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     transition: all 0.2s ease-out;
     float: right;
     margin: 50px 20px;
+    background-size: contain;
 }
 .section9 .owl-nav{
     left: 50%;
@@ -686,6 +689,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .section6 .but.right,
 .section9 .owl-next span{
     background: url("../images/str-right.png") no-repeat center;
+    background-size: contain;
 }
 .otzivi{
     background-color: #141353;
@@ -945,7 +949,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: auto;
     margin-top: 10px;
     margin-bottom: -140px;
-    background: url("../images/but-8.png") no-repeat center bottom, #18134e;
+    background: url("../images/but-9.png") no-repeat center bottom, #18134e;
     border-radius: 100%;
     box-shadow: 0px 0px 40px rgba(249, 21, 105, 0.7);
     animation: shadow 2s infinite ease-in-out;
@@ -979,11 +983,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding-left: 15px;
 }
 .map .block {
-    width: 350px;
+    width: 480px;
     min-height: 100px;
     position: absolute;
     z-index: 200;
-    background-color: rgba(31, 29, 127, 0.8);
+    background-color: rgba(31, 29, 127, 0.4);
     text-align: center;
     padding: 50px;
     border-radius: 5px;
@@ -1000,7 +1004,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .map .zag {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 1rem;
     line-height: 1.5;
 }
@@ -1027,7 +1031,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     width: 100%;
     max-width: 100%;
     margin-bottom: 20px;
-    height: 50px;
+    height: 60px;
     border: none;
     border: 1px solid #65676b;
     font-size: 16px;
@@ -1036,8 +1040,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     color: #fff;
     background: none;
     border-radius: 5px;
-    padding-left: 48px;
-    padding-right: 10px;
+    padding-left: 51px;
+    padding-right: 15px;
 }
 .map .block form input:focus{
     border: 1px solid rgba(249, 21, 105, 0.7);
@@ -1046,18 +1050,21 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .map .block form .tell {
     background: url("../images/f-icon2.png") no-repeat center left 16px;
 }
-.map .block form input[type="submit"] {
+.map .block form .enroll-btn {
+    max-width: 100% !important;
     width: 100%;
     max-width: 100%;
     height: 60px;
     border: none;
-    background: linear-gradient(to top, #fe186d, #dc0656);
-    border-bottom: 3px solid #b70547;
+     background: linear-gradient(to top, #12114a, #66215f);
+    border-bottom: 3px solid #22144e;
     text-align: center;
     padding: 0px;
     box-shadow: 0px 0px 40px rgba(249, 21, 105, 0.7);
     animation: shadow 2s infinite ease-in-out;
     cursor: pointer;
+    text-align: left;
+    padding: 0 30px;
 }
 .load {
     color: #fff;
@@ -1070,7 +1077,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .footer {
     min-height: 40px;
-    background-color: #0e0d3a;
+    background-color: #0e0d3c;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -1089,6 +1096,20 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .footer .soc img:hover {
     border: 1px solid #f3055d;
 }
+.footer p a{
+    font-size: 16px;
+    font-family: "Montserrat-Regular";
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 22px 6px;
+    border-bottom: 1px solid #38375a;
+}
+.footer p a:hover{
+    opacity: 0.5;
+}
+.footer .row div{
+    align-items: center;
+}
 .work .item-carosel-music {
     background-color: #0f0f43;
     padding: 20px;
@@ -1098,5 +1119,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .work .owl-dots{
     display: none;
+}
+.utp{
+    background-image: url("../images/bg-9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
