@@ -249,8 +249,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     min-width: 281px;
     max-width: 442px;
     width: 100%;
-     background: linear-gradient(to top, #12114a, #66215f);
-    border-bottom: 3px solid #22144e;
+    background: linear-gradient(to top, #fe186d, #dc0656);
+    border-bottom: 3px solid #b70547;
     box-shadow: 0px 0px 40px rgba(249, 21, 105, 0.7);
     animation: shadow 2s infinite ease-in-out;
     font-family: "Montserrat-SemiBold";
@@ -259,8 +259,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 .submit-form-btn:hover,
 .map .block form .enroll-btn:hover{
     transition: .3s;
-    background: linear-gradient(to top, #66215f, #12114a);
-    border-bottom: 3px solid #22144e;
+    background: linear-gradient(to top, #dc0656, #fe186d);
+    border-bottom: 3px solid #b70547;
 }
 .text-header-block{
     font-size: 20px;
@@ -268,7 +268,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     text-align: center;
 }
 .content-section{
-    padding: 80px 0 65px;
+    padding-top: 80px;
+    padding-bottom: 65px;
 }
 .header-section{
     margin: 0 auto;
@@ -316,6 +317,16 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     box-shadow: inset 0px -5px 0 0 rgba(18,17,74,1);
     margin-bottom: 15px;
     margin-right: 15px;
+}
+.block-course:hover{
+    background: url("../images/hover-dj.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.block-course:hover .header-block h4,
+.block-course:hover .list-coures li,
+.block-course:hover .list-coures-all li{
+    color: #FFFFFF;
 }
 .block-course:last-child{
     margin-right: 0;
@@ -963,7 +974,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin: auto;
     margin-top: 10px;
     margin-bottom: -140px;
-    background: url("../images/but-9.png") no-repeat center bottom, #18134e;
+    background: url("../images/but-8.png") no-repeat center bottom, #18134e;
     border-radius: 100%;
     box-shadow: 0px 0px 40px rgba(249, 21, 105, 0.7);
     animation: shadow 2s infinite ease-in-out;
@@ -1070,8 +1081,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     max-width: 100%;
     height: 60px;
     border: none;
-     background: linear-gradient(to top, #12114a, #66215f);
-    border-bottom: 3px solid #22144e;
+    background: linear-gradient(to top, #fe186d, #dc0656);
+    border-bottom: 3px solid #b70547;
     text-align: center;
     padding: 0px;
     box-shadow: 0px 0px 40px rgba(249, 21, 105, 0.7);
@@ -1156,5 +1167,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 .f-nav .submit-form-btn{
     margin-bottom: 20px;
+}
+.row{
+    margin-right: 0;
 }
 

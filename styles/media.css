@@ -39,7 +39,8 @@
 	    font-size: 25px;
 	}
 	.content-section {
-	    padding: 60px 0 80px;
+	    padding-top: 60px;
+		padding-bottom: 80px;
 	}
 	.news-headlines {
 	    float: none;
@@ -159,7 +160,8 @@
 		display: none;
 	}
 	.content-section .otzivi{
-		padding: 60px 0 80px;
+		padding-top: 60px;
+		padding-bottom: 80px;
 	}
 	.video-otzivi .owl-prev{
 		left: 43%;
@@ -175,6 +177,9 @@
 	.for-courses,
 	.napravlenie{
 		padding-bottom: 60px;
+	}
+	.container-fluid{
+		padding-right: 0;
 	}
 
 }
